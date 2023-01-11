@@ -4,6 +4,8 @@ public class Main {
 
         public static void main(String[] args) {
 
+            System.out.println("\nWelcome to a simple program that outputs the Fibonacci Sequence.\n\nHow many numbers of the Fibonacci Sequence do you want?");
+
             Scanner scanner = new Scanner(System.in);
 
             int userInput = scanner.nextInt();
@@ -25,3 +27,5 @@ public class Main {
             }
         }
     }
+
+    // For more information regarding the Fibonacci Sequence: https://en.wikipedia.org/wiki/Fibonacci_number
